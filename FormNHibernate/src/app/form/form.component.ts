@@ -1,22 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { PacientService } from '../pacient-data.service';
-import { tap, of, catchError } from 'rxjs';
+import { tap, of, catchError, Subject, map, takeUntil } from 'rxjs';
 
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
 })
-export class FormComponent {
+export class FormComponent implements OnInit, OnDestroy {
   pacientName?: string;
   pacientAge?: string;
+
+  private subject: Subject<boolean> = new Subject<boolean>();
 
   pacients: any[] = [];
 
   constructor(private pacientService: PacientService) { }
+ 
 
   ngOnInit() {
     this.loadPacients(); 
+  }
+
+  ngOnDestroy(): void {
+    this.subject.next(true);
+    this.subject.complete();
   }
 
   submitForm() {
@@ -26,8 +34,11 @@ export class FormComponent {
       age: this.pacientAge
     };
 
+    this.pacientService.postPacient(formData).pipe(takeUntil(this.subject)).subscribe( res => res)
+
     this.pacientService.postPacient(formData).pipe(
-      tap((response) => {
+      takeUntil(this.subject),
+      map((response) => {
         console.log('Paciente agregado correctamente:', response);
         this.pacientName = '';
         this.pacientAge = '';
