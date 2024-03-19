@@ -8,25 +8,30 @@ import { tap, of, catchError } from 'rxjs';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent {
-  pacientName: string = '';
+  pacientName?: string;
+  pacientAge?: string;
+
   pacients: any[] = [];
 
   constructor(private pacientService: PacientService) { }
 
   ngOnInit() {
-    this.loadPacients(); // Llama al método para cargar los empleados al iniciar la página
+    this.loadPacients(); 
   }
 
   submitForm() {
         
     const formData = {
       name: this.pacientName,
+      age: this.pacientAge
     };
 
     this.pacientService.postPacient(formData).pipe(
       tap((response) => {
         console.log('Paciente agregado correctamente:', response);
         this.pacientName = '';
+        this.pacientAge = '';
+
         this.loadPacients();
       }),
       catchError((error) => {
@@ -39,11 +44,11 @@ export class FormComponent {
   loadPacients() {
     this.pacientService.getAllPacients().pipe(
       tap((response) => {
-        this.pacients = response; // Asigna la respuesta a la variable pacients
+        this.pacients = response; 
       }),
       catchError((error) => {
         console.error('Error al obtener los pacientes:', error);
-        throw error; // Propaga el error para que pueda ser manejado externamente
+        throw error; // Propagar el error para que pueda ser manejado externamente
       })
     ).subscribe();
   }
@@ -57,7 +62,7 @@ export class FormComponent {
         }),
         catchError((error) => {
           console.error('paciente al eliminar el empleado:', error);
-          throw error; // Propaga el error para que pueda ser manejado externamente
+          throw error; // Propagar el error para que pueda ser manejado externamente
         })
       ).subscribe();
     }

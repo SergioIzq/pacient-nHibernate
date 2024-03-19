@@ -24,7 +24,8 @@ namespace WebApplication1.Controllers
                 {
                     var pacient = new Pacient
                     {
-                        name = pacientDto.name
+                        name = pacientDto.name,
+                        age = pacientDto.age
                     };
 
                     session.Save(pacient);

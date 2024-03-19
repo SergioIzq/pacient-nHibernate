@@ -1,10 +1,16 @@
-<form (ngSubmit)="submitForm()">
+<form (ngSubmit)="submitForm()" #pacientForm="ngForm">
   <div>
-    <label for="name">Nombre del paciente:</label>
-    <input type="text" id="name" [(ngModel)]="pacientName" name="name">
+    <label for="name">Nombre del paciente: </label>
+    <input type="text" id="name" [(ngModel)]="pacientName" name="name" required>
   </div>
-  <button type="submit">Enviar</button>
+  <br>
+  <div>
+    <label for="age">Edad: </label>
+    <input type="number" id="age" [(ngModel)]="pacientAge" name="age" required min="1" max="170">
+  </div>
+  <button type="submit" [disabled]="!pacientName || pacientName.trim() === '' || !pacientAge">Enviar</button>
 </form>
+
 
 <hr>
 
@@ -13,12 +19,14 @@
     <tr>
       <th>ID</th>
       <th>Nombre</th>
+      <th>Edad</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let pacient of pacients">
       <td>{{ pacient.id }}</td>
       <td>{{ pacient.name }}</td>
+      <td>{{ pacient.age }}</td>
       <td><button (click)="deletePacient(pacient.id)">Eliminar</button></td>
     </tr>
   </tbody>
