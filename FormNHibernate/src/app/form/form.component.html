@@ -1,0 +1,25 @@
+<form (ngSubmit)="submitForm()">
+  <div>
+    <label for="name">Nombre del paciente:</label>
+    <input type="text" id="name" [(ngModel)]="pacientName" name="name">
+  </div>
+  <button type="submit">Enviar</button>
+</form>
+
+<hr>
+
+<table *ngIf="pacients && pacients.length">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pacient of pacients">
+      <td>{{ pacient.id }}</td>
+      <td>{{ pacient.name }}</td>
+      <td><button (click)="deletePacient(pacient.id)">Eliminar</button></td>
+    </tr>
+  </tbody>
+</table>

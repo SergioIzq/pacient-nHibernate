@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:31:53.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pacient.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.cs",
+              "RelativeToolTip": "WebApplication1\\Pacient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:31:50.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

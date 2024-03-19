@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+
+	<class name="WebApplication1.Pacient, WebApplication1" table="Pacient">
+		<id name="id">
+			<generator class="native" />
+		</id>
+		<property name="name" />
+	</class>
+
+</hibernate-mapping>
