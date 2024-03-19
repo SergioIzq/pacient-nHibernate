@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\pacient.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\pacient.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pacient.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\controllers\\pacientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\pacientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\nhibernate.cfg.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\nhibernate.cfg.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\desktop\\pacient-nhibernate\\webapplication1\\webapplication1\\controllers\\pacientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DDEB89A-613D-4706-909B-6A7308674513}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\pacientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pacient.hbm.xml",
-              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.hbm.xml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pacient.hbm.xml",
-              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.hbm.xml",
-              "RelativeToolTip": "WebApplication1\\Pacient.hbm.xml",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T23:01:50.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NHibernateHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\NHibernateHelper.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\NHibernateHelper.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\NHibernateHelper.cs",
+              "RelativeToolTip": "WebApplication1\\NHibernateHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T23:01:22.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-19T22:52:36.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NHibernate.cfg.xml",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\NHibernate.cfg.xml",
+              "RelativeDocumentMoniker": "WebApplication1\\NHibernate.cfg.xml",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\NHibernate.cfg.xml",
+              "RelativeToolTip": "WebApplication1\\NHibernate.cfg.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-19T12:25:02.884Z",
+              "WhenOpened": "2024-03-19T22:52:20.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Pacient.cs",
-              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Pacient.cs",
-              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.cs",
               "RelativeToolTip": "WebApplication1\\Pacient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T12:23:55.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PacientController.cs",
-              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Controllers\\PacientController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\PacientController.cs",
-              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Controllers\\PacientController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\PacientController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwFcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T12:23:16.983Z",
+              "DocumentIndex": 0,
+              "Title": "Pacient.hbm.xml",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.hbm.xml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pacient.hbm.xml",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Pacient.hbm.xml",
+              "RelativeToolTip": "WebApplication1\\Pacient.hbm.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-19T12:25:02.884Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PacientController.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Controllers\\PacientController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\PacientController.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\Controllers\\PacientController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\PacientController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:23:16.983Z"
             }
           ]
         }

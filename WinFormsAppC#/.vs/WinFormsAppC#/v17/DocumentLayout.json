@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\pacient.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\pacient.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\winformsappc#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\winformsappc#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|c:\\users\\sergio\\source\\repos\\winformsappc#\\winformsappc#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35F24D41-BB4B-4553-B0D4-FF3E62C55421}|WinFormsAppC#\\WinFormsAppC#.csproj|solutionrelative:winformsappc#\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pacient.hbm.xml",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Pacient.hbm.xml",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\Pacient.hbm.xml",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Pacient.hbm.xml",
+              "RelativeToolTip": "WinFormsAppC#\\Pacient.hbm.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-19T22:58:50.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Pacient.cs",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\Pacient.cs",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Pacient.cs",
+              "RelativeToolTip": "WinFormsAppC#\\Pacient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:26:24.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinFormsAppC#.csproj",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\WinFormsAppC#.csproj",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\WinFormsAppC#.csproj",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\WinFormsAppC#.csproj",
+              "RelativeToolTip": "WinFormsAppC#\\WinFormsAppC#.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T22:24:28.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NHibernateHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\NHibernateHelper.cs",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\NHibernateHelper.cs",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\NHibernateHelper.cs",
+              "RelativeToolTip": "WinFormsAppC#\\NHibernateHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:24:37.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\Form1.cs",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormsAppC#\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:20:57.664Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\Program.cs",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Program.cs",
+              "RelativeToolTip": "WinFormsAppC#\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:20:27.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsAppC#\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Sergio\\source\\repos\\WinFormsAppC#\\WinFormsAppC#\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsAppC#\\Form1.Designer.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:15:41.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
