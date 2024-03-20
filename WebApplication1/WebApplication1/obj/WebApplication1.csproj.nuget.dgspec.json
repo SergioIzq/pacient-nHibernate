@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sergio\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\sizquierdo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sizquierdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

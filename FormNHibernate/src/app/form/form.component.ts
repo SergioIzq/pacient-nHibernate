@@ -7,11 +7,11 @@ import { tap, of, catchError, Subject, map, takeUntil } from 'rxjs';
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
 })
-export class FormComponent implements OnInit, OnDestroy {
+export class FormComponent implements OnInit/*, OnDestroy*/ {
   pacientName?: string;
   pacientAge?: string;
 
-  private subject: Subject<boolean> = new Subject<boolean>();
+  // private subject: Subject<boolean> = new Subject<boolean>();
 
   pacients: any[] = [];
 
@@ -22,10 +22,10 @@ export class FormComponent implements OnInit, OnDestroy {
     this.loadPacients(); 
   }
 
-  ngOnDestroy(): void {
-    this.subject.next(true);
-    this.subject.complete();
-  }
+  // ngOnDestroy(): void {
+  //   this.subject.next(true);
+  //   this.subject.complete();
+  // }
 
   submitForm() {
         
@@ -34,10 +34,10 @@ export class FormComponent implements OnInit, OnDestroy {
       age: this.pacientAge
     };
 
-    this.pacientService.postPacient(formData).pipe(takeUntil(this.subject)).subscribe( res => res)
+    // this.pacientService.postPacient(formData).pipe(takeUntil(this.subject)).subscribe( res => res)
 
     this.pacientService.postPacient(formData).pipe(
-      takeUntil(this.subject),
+      // takeUntil(this.subject),
       map((response) => {
         console.log('Paciente agregado correctamente:', response);
         this.pacientName = '';

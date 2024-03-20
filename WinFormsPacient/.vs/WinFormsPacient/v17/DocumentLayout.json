@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\winformspacient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\winformspacient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|c:\\users\\sizquierdo\\desktop\\pacient-nhibernate\\winformspacient\\winformspacient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED74ECC3-DC08-40B2-A418-174853E26EFC}|WinFormsPacient\\WinFormsPacient.csproj|solutionrelative:winformspacient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinFormsPacient.csproj",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\WinFormsPacient.csproj",
+              "RelativeDocumentMoniker": "WinFormsPacient\\WinFormsPacient.csproj",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\WinFormsPacient.csproj",
+              "RelativeToolTip": "WinFormsPacient\\WinFormsPacient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-20T08:02:19.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsPacient\\Form1.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Form1.cs",
+              "RelativeToolTip": "WinFormsPacient\\Form1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:17:12.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NHibernateHelper.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\NHibernateHelper.cs",
+              "RelativeDocumentMoniker": "WinFormsPacient\\NHibernateHelper.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\NHibernateHelper.cs",
+              "RelativeToolTip": "WinFormsPacient\\NHibernateHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:18:21.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsPacient\\Program.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Program.cs",
+              "RelativeToolTip": "WinFormsPacient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:15:59.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsPacient\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsPacient\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:16:57.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Pacient.cs",
+              "RelativeDocumentMoniker": "WinFormsPacient\\Pacient.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Pacient.cs",
+              "RelativeToolTip": "WinFormsPacient\\Pacient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:15:55.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsPacient\\Form1.cs",
+              "ToolTip": "C:\\Users\\sizquierdo\\Desktop\\pacient-nHibernate\\WinFormsPacient\\WinFormsPacient\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormsPacient\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:13:50.757Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
