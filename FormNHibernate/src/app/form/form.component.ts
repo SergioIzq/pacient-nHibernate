@@ -9,8 +9,8 @@ import { Patient } from '../patient.interface';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit/*, OnDestroy*/ {
-  patientName?: string;
-  patientAge?: string;
+  patientName: string = '';
+  patientAge: number = 0;
 
   // private subject: Subject<boolean> = new Subject<boolean>();
 
@@ -18,10 +18,10 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
 
 
   constructor(private patientService: PatientService) { }
- 
+
 
   ngOnInit() {
-    this.loadPatients(); 
+    this.loadPatients();
   }
 
   // ngOnDestroy(): void {
@@ -30,8 +30,9 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
   // }
 
   submitForm() {
-        
-    const formData = {
+
+    const formData: Patient = {
+      id: 0,
       name: this.patientName,
       age: this.patientAge
     };
@@ -43,8 +44,7 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
       map((response) => {
         console.log('Paciente agregado correctamente:', response);
         this.patientName = '';
-        this.patientAge = '';
-
+        this.patientAge = 0;
         this.loadPatients();
       }),
       catchError((error) => {
@@ -57,7 +57,7 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
   loadPatients() {
     this.patientService.getAllPatients().pipe(
       tap((response) => {
-        this.patients = response; 
+        this.patients = response;
       }),
       catchError((error) => {
         console.error('Error al obtener los pacientes:', error);
@@ -75,7 +75,7 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
         }),
         catchError((error) => {
           console.error('paciente al eliminar el empleado:', error);
-          throw error; 
+          throw error;
         })
       ).subscribe();
     }
