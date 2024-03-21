@@ -1,20 +1,20 @@
 <form (ngSubmit)="submitForm()" #pacientForm="ngForm">
   <div>
     <label for="name">Nombre del paciente: </label>
-    <input type="text" id="name" [(ngModel)]="pacientName" name="name" required>
+    <input type="text" id="name" [(ngModel)]="patientName" name="name" required>
   </div>
   <br>
   <div>
     <label for="age">Edad: </label>
-    <input type="number" id="age" [(ngModel)]="pacientAge" name="age" required min="1" max="170">
+    <input type="number" id="age" [(ngModel)]="patientAge" name="age" required min="1" max="170">
   </div>
-  <button type="submit" [disabled]="!pacientName || pacientName.trim() === '' || !pacientAge">Enviar</button>
+  <button type="submit" [disabled]="!patientName || patientName.trim() === '' || !patientAge">Enviar</button>
 </form>
 
 
 <hr>
 
-<table *ngIf="pacients && pacients.length">
+<table *ngIf="patients && patients.length">
   <thead>
     <tr>
       <th>ID</th>
@@ -23,11 +23,11 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let pacient of pacients">
-      <td>{{ pacient.id }}</td>
-      <td>{{ pacient.name }}</td>
-      <td>{{ pacient.age }}</td>
-      <td><button (click)="deletePacient(pacient.id)">Eliminar</button></td>
+    <tr *ngFor="let patient of patients">
+      <td>{{ patient.id }}</td>
+      <td>{{ patient.name }}</td>
+      <td>{{ patient.age }}</td>
+      <td><button (click)="deletePatient(patient.id)">Eliminar</button></td>
     </tr>
   </tbody>
 </table>

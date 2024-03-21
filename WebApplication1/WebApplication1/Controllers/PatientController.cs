@@ -5,85 +5,85 @@ namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class PacientController : ControllerBase
+    public class PatientController : ControllerBase
     {
         private readonly ISessionFactory _sessionFactory;
 
-        public PacientController(ISessionFactory sessionFactory)
+        public PatientController(ISessionFactory sessionFactory)
         {
             _sessionFactory = sessionFactory;
         }
 
         [HttpPost]
-        public IActionResult CreatePacient([FromBody] PacientDto pacientDto)
+        public IActionResult CreatePatient([FromBody] PatientDto patientDto)
         {
             try
             {
                 using (var session = _sessionFactory.OpenSession())
                 using (var transaction = session.BeginTransaction())
                 {
-                    var pacient = new Pacient
+                    var patient = new Patient
                     {
-                        name = pacientDto.name,
-                        age = pacientDto.age
+                        name = patientDto.name,
+                        age = patientDto.age
                     };
 
-                    session.Save(pacient);
+                    session.Save(patient);
                     transaction.Commit();
                 }
 
-                return Ok(new { message = "Pacient created successfully" });
+                return Ok(new { message = "Patient created successfully" });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error creating pacient: {ex.Message}");
+                return StatusCode(500, $"Error creating patient: {ex.Message}");
             }
         }
 
         [HttpGet]
-        public IActionResult GetPacient()
+        public IActionResult GetPatient()
         {
             try
             {
                 using (var session = _sessionFactory.OpenSession())
                 {
-                    var pacients = session.Query<Pacient>().OrderBy(emp => emp.id).ToList();
+                    var patients = session.Query<Patient>().OrderBy(emp => emp.id).ToList();
 
-                    return Ok(pacients);
+                    return Ok(patients);
                 }
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error retrieving pacients: {ex.Message}");
+                return StatusCode(500, $"Error retrieving patients: {ex.Message}");
             }
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeletePacient(int id)
+        public IActionResult DeletePatient(int id)
         {
             try
             {
                 using (var session = _sessionFactory.OpenSession())
                 {
-                    var pacient = session.Get<Pacient>(id);
-                    if (pacient == null)
+                    var patient = session.Get<Patient>(id);
+                    if (patient == null)
                     {
-                        return NotFound($"Pacient with ID {id} not found");
+                        return NotFound($"Patient with ID {id} not found");
                     }
 
                     using (var transaction = session.BeginTransaction())
                     {
-                        session.Delete(pacient);                        
+                        session.Delete(patient);                        
 
                         transaction.Commit();
                     }
 
-                    return Ok(new { message = $"Pacient with ID {id} deleted successfully" });
+                    return Ok(new { message = $"Patient with ID {id} deleted successfully" });
                 }
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error deleting Pacient: {ex.Message}");
+                return StatusCode(500, $"Error deleting Patient: {ex.Message}");
             }
         }
 

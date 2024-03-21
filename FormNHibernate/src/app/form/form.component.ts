@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { PacientService } from '../pacient-data.service';
+import { PatientService } from '../patient-data.service';
 import { tap, of, catchError, Subject, map, takeUntil } from 'rxjs';
 
 @Component({
@@ -8,18 +8,19 @@ import { tap, of, catchError, Subject, map, takeUntil } from 'rxjs';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit/*, OnDestroy*/ {
-  pacientName?: string;
-  pacientAge?: string;
+  patientName?: string;
+  patientAge?: string;
 
   // private subject: Subject<boolean> = new Subject<boolean>();
 
-  pacients: any[] = [];
+  patients: Array<{id:number, name: string, age: number}> = [];
 
-  constructor(private pacientService: PacientService) { }
+
+  constructor(private patientService: PatientService) { }
  
 
   ngOnInit() {
-    this.loadPacients(); 
+    this.loadPatients(); 
   }
 
   // ngOnDestroy(): void {
@@ -30,20 +31,20 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
   submitForm() {
         
     const formData = {
-      name: this.pacientName,
-      age: this.pacientAge
+      name: this.patientName,
+      age: this.patientAge
     };
 
-    // this.pacientService.postPacient(formData).pipe(takeUntil(this.subject)).subscribe( res => res)
+    // this.patientService.postPacient(formData).pipe(takeUntil(this.subject)).subscribe( res => res)
 
-    this.pacientService.postPacient(formData).pipe(
+    this.patientService.postPatient(formData).pipe(
       // takeUntil(this.subject),
       map((response) => {
         console.log('Paciente agregado correctamente:', response);
-        this.pacientName = '';
-        this.pacientAge = '';
+        this.patientName = '';
+        this.patientAge = '';
 
-        this.loadPacients();
+        this.loadPatients();
       }),
       catchError((error) => {
         console.error('Error al agregar el paciente:', error);
@@ -52,10 +53,10 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
     ).subscribe();
   }
 
-  loadPacients() {
-    this.pacientService.getAllPacients().pipe(
+  loadPatients() {
+    this.patientService.getAllPatients().pipe(
       tap((response) => {
-        this.pacients = response; 
+        this.patients = response; 
       }),
       catchError((error) => {
         console.error('Error al obtener los pacientes:', error);
@@ -64,12 +65,12 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
     ).subscribe();
   }
 
-  deletePacient(id: number) {
+  deletePatient(id: number) {
     if (confirm('¿Estás seguro de que quieres eliminar este paciente?')) {
-      this.pacientService.deletePacient(id).pipe(
+      this.patientService.deletePatient(id).pipe(
         tap((response) => {
           console.log('Paciente eliminado correctamente:', response);
-          this.loadPacients();
+          this.loadPatients();
         }),
         catchError((error) => {
           console.error('paciente al eliminar el empleado:', error);

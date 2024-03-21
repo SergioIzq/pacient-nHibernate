@@ -14,7 +14,7 @@ namespace WebApplication1
             {
                 var configuration = new Configuration();
                 configuration.Configure(); // Carga la configuración de NHibernate desde el archivo hibernate.cfg.xml
-                configuration.AddAssembly(Assembly.GetExecutingAssembly()); // Agrega el ensamblado que contiene la clase Employee
+                configuration.AddAssembly(Assembly.GetExecutingAssembly()); 
                 _sessionFactory = configuration.BuildSessionFactory();
             }
             return _sessionFactory.OpenSession();

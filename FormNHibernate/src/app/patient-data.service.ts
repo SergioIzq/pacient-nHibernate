@@ -5,24 +5,24 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class PacientService {
+export class PatientService {
 
-  private baseUrl = 'http://localhost:5054/Pacient'; 
+  private baseUrl = 'http://localhost:5054/Patient'; 
 
   constructor(private http: HttpClient) { }
 
-  getAllPacients(): Observable<any> {
+  getAllPatients(): Observable<any> {
     return this.http.get(`${this.baseUrl}`);
   }
 
-  postPacient(pacientData: any): Observable<any> {
+  postPatient(patientData: any): Observable<any> {
     // Definir las cabeceras para especificar el tipo de contenido como application/json
     const headers = new HttpHeaders().set('Content-Type', 'application/json');
     
-    return this.http.post(this.baseUrl, pacientData, { headers });
+    return this.http.post(this.baseUrl, patientData, { headers });
   }
 
-  deletePacient(id: number): Observable<any> {
+  deletePatient(id: number): Observable<any> {
     // Construir la URL completa con el ID del empleado a eliminar
     const url = `${this.baseUrl}/${id}`;
     
