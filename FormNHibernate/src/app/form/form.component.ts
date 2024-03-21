@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { PatientService } from '../patient-data.service';
 import { tap, of, catchError, Subject, map, takeUntil } from 'rxjs';
+import { Patient } from '../patient.interface';
 
 @Component({
   selector: 'app-form',
@@ -13,7 +14,7 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
 
   // private subject: Subject<boolean> = new Subject<boolean>();
 
-  patients: Array<{id:number, name: string, age: number}> = [];
+  patients: Patient[] = [];
 
 
   constructor(private patientService: PatientService) { }
@@ -60,7 +61,7 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
       }),
       catchError((error) => {
         console.error('Error al obtener los pacientes:', error);
-        throw error; // Propagar el error para que pueda ser manejado externamente
+        throw error;
       })
     ).subscribe();
   }
@@ -74,7 +75,7 @@ export class FormComponent implements OnInit/*, OnDestroy*/ {
         }),
         catchError((error) => {
           console.error('paciente al eliminar el empleado:', error);
-          throw error; // Propagar el error para que pueda ser manejado externamente
+          throw error; 
         })
       ).subscribe();
     }
