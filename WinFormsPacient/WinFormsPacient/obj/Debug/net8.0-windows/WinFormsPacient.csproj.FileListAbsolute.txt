@@ -57,3 +57,4 @@ C:\Users\sizquierdo\Desktop\pacient-nHibernate\WinFormsPacient\WinFormsPacient\o
 C:\Users\sizquierdo\Desktop\pacient-nHibernate\WinFormsPacient\WinFormsPacient\obj\Debug\net8.0-windows\WinFormsPacient.pdb
 C:\Users\sizquierdo\Desktop\pacient-nHibernate\WinFormsPacient\WinFormsPacient\obj\Debug\net8.0-windows\WinFormsPacient.genruntimeconfig.cache
 C:\Users\sizquierdo\Desktop\pacient-nHibernate\WinFormsPacient\WinFormsPacient\obj\Debug\net8.0-windows\ref\WinFormsPacient.dll
+C:\Users\sizquierdo\Desktop\pacient-nHibernate\WinFormsPacient\WinFormsPacient\bin\Debug\net8.0-windows\hibernate.cfg.xml

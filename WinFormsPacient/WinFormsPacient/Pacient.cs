@@ -2,7 +2,7 @@
 namespace WinFormsPacient
 
 {
-    internal class Pacient
+    public class Pacient
     {
         public virtual int id { get; set; }
         public virtual string name { get; set; }

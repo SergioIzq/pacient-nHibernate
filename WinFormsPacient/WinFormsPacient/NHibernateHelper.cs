@@ -1,5 +1,6 @@
 ﻿using NHibernate;
 using NHibernate.Cfg;
+using System.Configuration;
 using System.Reflection;
 
 namespace WinFormsPacient
@@ -12,8 +13,12 @@ namespace WinFormsPacient
         {
             if (_sessionFactory == null)
             {
-                Configuration configuration = new Configuration()                    
-                    .AddFile("Pacient.hbm.xml");
+                NHibernate.Cfg.Configuration configuration = new NHibernate.Cfg.Configuration();
+                //    .AddFile("Pacient.hbm.xml");
+
+
+                configuration.Configure();
+                configuration.AddAssembly(typeof(Pacient).Assembly);
                 configuration.Configure(); // Carga la configuración de NHibernate desde el archivo hibernate.cfg.xml
 
 
