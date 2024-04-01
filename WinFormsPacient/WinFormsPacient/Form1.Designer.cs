@@ -41,15 +41,17 @@ namespace WinFormsPacient
             Label2 = new Label();
             txtName = new TextBox();
             txtAge = new TextBox();
+            btnModificar = new Button();
+            btnEliminar = new Button();
             SuspendLayout();
             // 
             // btnSend
             // 
-            btnSend.Location = new Point(348, 279);
+            btnSend.Location = new Point(81, 261);
             btnSend.Name = "btnSend";
             btnSend.Size = new Size(75, 23);
             btnSend.TabIndex = 0;
-            btnSend.Text = "Enviar";
+            btnSend.Text = "Insertar";
             btnSend.UseVisualStyleBackColor = true;
             btnSend.Click += btnSend_Click;
             // 
@@ -85,6 +87,26 @@ namespace WinFormsPacient
             txtAge.Size = new Size(56, 23);
             txtAge.TabIndex = 4;
             // 
+            // btnModificar
+            // 
+            btnModificar.Location = new Point(162, 261);
+            btnModificar.Name = "btnModificar";
+            btnModificar.Size = new Size(75, 23);
+            btnModificar.TabIndex = 0;
+            btnModificar.Text = "Modificar";
+            btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(243, 261);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(75, 23);
+            btnEliminar.TabIndex = 0;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -94,6 +116,8 @@ namespace WinFormsPacient
             Controls.Add(txtName);
             Controls.Add(Label2);
             Controls.Add(Label1);
+            Controls.Add(btnEliminar);
+            Controls.Add(btnModificar);
             Controls.Add(btnSend);
             Name = "Form1";
             Text = "Form1";
@@ -101,6 +125,7 @@ namespace WinFormsPacient
             PerformLayout();
         }
 
-        
+        private Button btnModificar;
+        private Button btnEliminar;
     }
 }

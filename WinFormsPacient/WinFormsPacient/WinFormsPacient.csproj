@@ -9,11 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Pacient.hbm.xml" />
+    <None Remove="Patient.hbm.xml" />
+    <None Remove="VisitaPaciente.hbm.xml" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Pacient.hbm.xml" />
+    <EmbeddedResource Include="VisitaPaciente.hbm.xml" />
+    <EmbeddedResource Include="Patient.hbm.xml" />
   </ItemGroup>
 
   <ItemGroup>

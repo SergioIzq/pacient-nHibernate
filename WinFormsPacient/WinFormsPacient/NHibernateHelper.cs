@@ -18,7 +18,7 @@ namespace WinFormsPacient
 
 
                 configuration.Configure();
-                configuration.AddAssembly(typeof(Pacient).Assembly);
+                configuration.AddAssembly(typeof(Patient).Assembly);
                 configuration.Configure(); // Carga la configuración de NHibernate desde el archivo hibernate.cfg.xml
 
 
